@@ -7,12 +7,13 @@
 
 * [Summary](#summary)
 * [Dependencies](#dependencies)
+* [Citation](#citation)
 * [Hyperparameters and Options](#hyperparameters-and-options)
 * [Data for Demo](#data-for-demo)
 * [Run Demo](#run-demo)
 
 ### Summary
-Implementation of the proposed algorithm in the paper **Combining Local and Global Word Embeddings for Microblog Stemming** by Anurag Roy, Trishnendu Ghorai, Kripabandhu Ghosh, Saptarshi Ghosh. The proposed unsupervised algorithm finds stems of all words using help of local and global word embeddings.
+Implementation of the proposed algorithm in the paper **Combining Local and Global Word Embeddings for Microblog Stemming**(*CIKM 2017*) by Anurag Roy, Trishnendu Ghorai, Kripabandhu Ghosh, Saptarshi Ghosh. The proposed unsupervised algorithm finds stems of all words using help of local and global word embeddings.
 
 ### Dependencies
 python version: `python 2.7`
@@ -23,6 +24,18 @@ packages:
 - `scikit_learn`
 
 To install the dependencies run `pip install -r requirements.txt`
+
+### Citation
+If you use the codes, please refer to the following paper:
+
+```
+@inproceedings{Roy-CIKM17,
+author = {Roy, Anurag and Ghorai, Trishnendu and Ghosh, Kripabandhu and Ghosh, Saptarshi},
+title = {Combining Local and Global Word Embeddings for Microblog Stemming},
+year = {2017},
+booktitle = {Proceedings of the 2017 ACM on Conference on Information and Knowledge Management},
+}
+```
 
 ### Hyperparameters and Options
 Hyperparameters and options in `unsupclean.py`.
