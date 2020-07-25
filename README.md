@@ -13,7 +13,7 @@
 * [Run Demo](#run-demo)
 
 ### Summary
-Implementation of the proposed algorithm in the paper **Combining Local and Global Word Embeddings for Microblog Stemming**(*CIKM 2017*) by Anurag Roy, Trishnendu Ghorai, Kripabandhu Ghosh, Saptarshi Ghosh. The proposed unsupervised algorithm finds stems of all words using help of local and global word embeddings.
+Implementation of the proposed algorithm in the paper [**Combining Local and Global Word Embeddings for Microblog Stemming**](https://dl.acm.org/doi/abs/10.1145/3132847.3133103)(*CIKM 2017*) by Anurag Roy, Trishnendu Ghorai, Kripabandhu Ghosh, Saptarshi Ghosh. The proposed unsupervised algorithm finds stems of all words using help of local and global word embeddings.
 
 ### Dependencies
 python version: `python 2.7`
@@ -33,7 +33,10 @@ If you use the codes, please refer to the following paper:
 author = {Roy, Anurag and Ghorai, Trishnendu and Ghosh, Kripabandhu and Ghosh, Saptarshi},
 title = {Combining Local and Global Word Embeddings for Microblog Stemming},
 year = {2017},
-booktitle = {Proceedings of the 2017 ACM on Conference on Information and Knowledge Management},
+doi = {10.1145/3132847.3133103},
+booktitle = {{Proceedings of the 2017 ACM Conference on Information and Knowledge Management (CIKM)}},
+pages = {2267–2270},
+location = {Singapore, Singapore},
 }
 ```
 
