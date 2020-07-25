@@ -24,7 +24,7 @@ class Stem_word(object):
 
 class Word2Vec_stemmer(Stem_word):
     def __init__(self, model_file = 'nepal_model_for_stem', global_model_file = 'wiki.bin',
-    alpha = 0.9, beta = 0.7, gamma = 0.7, prefix = 2, m = 3, lambda_val = 0.9):
+    alpha = 0.9, beta = 0.7, prefix = 2, m = 3, lambda_val = 0.9):
  
         self.model = Word2Vec.load(model_file)
         self.global_model = KeyedVectors.load_word2vec_format(global_model_file)
@@ -235,7 +235,7 @@ class Word2Vec_stemmer(Stem_word):
     def union(self,word1, word2):
         parent1 = self.find_parent(word1)
         parent2 = self.find_parent(word2)
-        if len(parent1) < len(parent2):
+        if len(parent1) > len(parent2):
             self.union_dict[parent1] = parent2
         else:
             self.union_dict[parent2] = parent1
