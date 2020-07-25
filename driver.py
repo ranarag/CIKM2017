@@ -20,7 +20,7 @@ print "Running the stemmer"
 
 ''' Creating an Word2Vec_stemmer object runs the stemming algorithm '''
 
-k = Word2Vec_stemmer('nepal_model_for_stem', 'wv_glove_twitter.txt', beta = 0.9, gamma=0.7, prefix=2, lambda_val=3)
+k = Word2Vec_stemmer('nepal_model_for_stem', 'wv_glove_twitter.txt', alpha = 0.9, beta = 0.9, prefix=2, lambda_val=3)
 
 
 
