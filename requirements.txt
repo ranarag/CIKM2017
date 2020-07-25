@@ -1,0 +1,4 @@
+gensim==3.8.1
+nltk==3.4.5
+callme==0.2.0
+scikit_learn==0.23.1
