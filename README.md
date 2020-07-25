@@ -8,7 +8,6 @@
 * [Summary](#summary)
 * [Dependencies](#dependencies)
 * [Hyperparameters and Options](#hyperparameters-and-options)
-* [About](#about)
 * [Data for Demo](#data-for-demo)
 * [Run Demo](#run-demo)
 
@@ -43,4 +42,14 @@ To generate the list of word stems, run the following command:
 
 `python2 driver.py`
 
-The word stem list will be stored in the `word_stems_list.txt` file. 
+The word stem list will be stored in the `word_stems_list.txt` file. Each line in the file contains:
+```
+<stem> <list of words to be replaced with the stem>
+```
+
+An example entry of the file will be 
+```
+msghelpea [u'msghelpea', u'msghelpeart', u'msghelpearthqu']
+```
+
+
